@@ -1,0 +1,36 @@
+/*importing fonts from google fonts api*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+    
+/* webpage style */
+body{
+    background-color: #ccf2ff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+}
+h1{
+    font-family: 'Oswald', 'Helvetica', 'Arial' , sans-serif;
+}
+/* based on style from chapter 3 of the text */
+nav{
+    font-family: 'Oswald', 'Helvetica', 'Arial' , sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+main{
+    display: block;
+}
+footer{
+    font-size: .75em;
+    text-align: center;
+    margin-top: 20px;
+}
